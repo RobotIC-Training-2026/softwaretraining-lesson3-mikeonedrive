@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"20251021homework\startup_stm32f103xb.o"
+"20251021homework\main.o"
+"20251021homework\stm32f1xx_it.o"
+"20251021homework\stm32f1xx_hal_msp.o"
+"20251021homework\stm32f1xx_hal_gpio_ex.o"
+"20251021homework\stm32f1xx_hal_tim.o"
+"20251021homework\stm32f1xx_hal_tim_ex.o"
+"20251021homework\stm32f1xx_hal_uart.o"
+"20251021homework\stm32f1xx_hal.o"
+"20251021homework\stm32f1xx_hal_rcc.o"
+"20251021homework\stm32f1xx_hal_rcc_ex.o"
+"20251021homework\stm32f1xx_hal_gpio.o"
+"20251021homework\stm32f1xx_hal_dma.o"
+"20251021homework\stm32f1xx_hal_cortex.o"
+"20251021homework\stm32f1xx_hal_pwr.o"
+"20251021homework\stm32f1xx_hal_flash.o"
+"20251021homework\stm32f1xx_hal_flash_ex.o"
+"20251021homework\stm32f1xx_hal_exti.o"
+"20251021homework\system_stm32f1xx.o"
+--strict --scatter "20251021homework\20251021homework.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "20251021homework.map" -o 20251021homework\20251021homework.axf
